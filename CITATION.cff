@@ -9,4 +9,6 @@ date-released: 2022-08-15
 url: "https://github.com/victorroz/Solar-Powered-Arduino-Uno"
 preferred-citation:
   type: report
-  
+  authors:
+  - family-names: "Rozario"
+    given-names: "Victor C"
