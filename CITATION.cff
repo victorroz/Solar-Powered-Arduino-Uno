@@ -4,8 +4,6 @@ type: article
 authors:
   - family-names: "Rozario"
     given-names: "Victor C"
-preferred-citation:
-  type: article
 title: "Solar Powered Arduino Uno"
 version: 0.1.0
 date-released: 2022-08-15
