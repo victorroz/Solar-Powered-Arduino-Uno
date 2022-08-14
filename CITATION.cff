@@ -3,8 +3,10 @@ message: "If you use this article, please cite it as below."
 authors:
 - family-names: "Rozario"
   given-names: "Victor C"
-preferred-citation: "report"
 title: "Solar Powered Arduino Uno"
 version: 0.1.0
 date-released: 2022-08-15
 url: "https://github.com/victorroz/Solar-Powered-Arduino-Uno"
+preferred-citation:
+  type: report
+  
