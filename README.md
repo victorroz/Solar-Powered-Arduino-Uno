@@ -17,6 +17,7 @@
 - [:clock2: Future ideas](#future-ideas)
 - [:hand: How to contribute](#how-to-contribute)
     - [Manifest](#manifest)
+- [:anchor: Materials](#materials)
 ## About this project
 ![Solar Powered Arduino Uno Banner](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/main/images/Banner.png)
 *One of the challenging task when designing a remote data logger is the power source. For instance, having an IoT (Internet of Things) device in a forest to detect forest fires where the mains power supply is not present. In such circumstances, the need for a standalone power supply, which has the means to generate electricity from the natural resources available to human, is ideal. A solar panel is used to charge up a battery which is then channeled through a voltage regulator to power up the Arduino and any other external components connected to it. A secondary battery has also been introduced to act as a backup power supply in case the primary one fails. This design project lays out a run-through of the modifications made to the already existing solar charged battery powered Arduino Uno.*
@@ -63,3 +64,26 @@ This is a free and open-source initiative. Anyone can make a contribution based 
 - /rawFiles - This contains all the raw or original source files from fritzing and draw.io
 - /CITATION.cff - If anyone wants to use this repository as a reference then they can cite repository using the details provided this file 
 - /README.md - This is the file you are currently reading!
+
+## Materials
+The materials required for this project are as follows:
+<ol>
+    <li>Arduino Uno [<a href="https://www.amazon.ca/ARDUINO-A000066-Uno-DIP-1-5/dp/B008GRTSV6/ref=sr_1_5?crid=1HO0GYEHUC4SL&keywords=arduino+uno&qid=1660604145&sprefix=arduino+uno%2Caps%2C135&sr=8-5">https://www.amazon.ca/ARDUINO-A000066-Uno-DIP-1-5/dp/B008GRTSV6/ref=sr_1_5?crid=1HO0GYEHUC4SL&keywords=arduino+uno&qid=1660604145&sprefix=arduino+uno%2Caps%2C135&sr=8-5</a>]</li>
+    <li>Breadboard [<a href="https://www.amazon.ca/Breadboard-Solderless-Prototype-Distribution-Connecting/dp/B01EV6LJ7G/ref=pd_bxgy_img_sccl_2/131-0512123-6000825?pd_rd_w=iDQ8u&content-id=amzn1.sym.17b2b149-58e2-4824-ba79-851c5f351fdc&pf_rd_p=17b2b149-58e2-4824-ba79-851c5f351fdc&pf_rd_r=R3J504ECFW2WGFPBRRFN&pd_rd_wg=dokHs&pd_rd_r=5436eac7-824c-4fe0-a619-b27339f73f25&pd_rd_i=B01EV6LJ7G&psc=1">https://www.amazon.ca/Breadboard-Solderless-Prototype-Distribution-Connecting/dp/B01EV6LJ7G/ref=pd_bxgy_img_sccl_2/131-0512123-6000825?pd_rd_w=iDQ8u&content-id=amzn1.sym.17b2b149-58e2-4824-ba79-851c5f351fdc&pf_rd_p=17b2b149-58e2-4824-ba79-851c5f351fdc&pf_rd_r=R3J504ECFW2WGFPBRRFN&pd_rd_wg=dokHs&pd_rd_r=5436eac7-824c-4fe0-a619-b27339f73f25&pd_rd_i=B01EV6LJ7G&psc=1</a>]</li>
+    <li>Jumper Wires [<a href="https://www.amazon.ca/Elegoo-120pcs-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=pd_day0fbt_img_sccl_1/131-0512123-6000825?pd_rd_w=7t2bc&content-id=amzn1.sym.8b6780d3-612a-41a1-b711-b85b62069095&pf_rd_p=8b6780d3-612a-41a1-b711-b85b62069095&pf_rd_r=Q6PMDMD2QHQERWVQAZAZ&pd_rd_wg=WyQ71&pd_rd_r=ada453ae-9118-4f62-9a2e-56708467c475&pd_rd_i=B01EV70C78&psc=1">https://www.amazon.ca/Elegoo-120pcs-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=pd_day0fbt_img_sccl_1/131-0512123-6000825?pd_rd_w=7t2bc&content-id=amzn1.sym.8b6780d3-612a-41a1-b711-b85b62069095&pf_rd_p=8b6780d3-612a-41a1-b711-b85b62069095&pf_rd_r=Q6PMDMD2QHQERWVQAZAZ&pd_rd_wg=WyQ71&pd_rd_r=ada453ae-9118-4f62-9a2e-56708467c475&pd_rd_i=B01EV70C78&psc=1</a>]</li>
+    <li>5V step-up booster [<a href="https://www.amazon.ca/gp/product/B07KJVGVCM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B07KJVGVCM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>TP4056 lithium battery charger [<a href="https://www.amazon.ca/gp/product/B083RTRJT6/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B083RTRJT6/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>6V Solar cell [<a href=https://www.amazon.ca/gp/product/B07BMMHMSJ/ref=ppx_od_dt_b_asin_image_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B07BMMHMSJ/ref=ppx_od_dt_b_asin_image_s00?ie=UTF8&psc=1</a>]</li>
+    <li>18650 lithium battery [<a href=""></a>]</li>
+    <li>Battery holder [<a href="https://www.amazon.ca/gp/product/B08B86KHB2/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B08B86KHB2/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>1N4004 diode [<a href="https://www.amazon.ca/gp/product/B08KD73D81/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B08KD73D81/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>555 timer IC [<a href="https://www.amazon.ca/gp/product/B07RHKZ72L/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B07RHKZ72L/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>2N3904 transistor [<a href="https://www.amazon.ca/gp/product/B07RTBJ1YZ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B07RTBJ1YZ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>1MΩ resistor [<a href="https://www.amazon.ca/gp/product/B07JL6FGLM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B07JL6FGLM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>100kΩ resistor [<a href="https://www.amazon.ca/gp/product/B07JL6FGLM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B07JL6FGLM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>10kΩ resistor [<a href="https://www.amazon.ca/gp/product/B07JL6FGLM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B07JL6FGLM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>100μF electrolytic capacitor [<a href="https://www.amazon.ca/gp/product/B089YDN6VJ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B089YDN6VJ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>10nF ceramic capacitor [<a href="https://www.amazon.ca/gp/product/B072J58YMT/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B072J58YMT/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li>5V SPDT relay [<a href="https://www.amazon.ca/gp/product/B0874MF8DR/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B0874MF8DR/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
+    <li> [<a href=""></a>]</li>
+</ol>
