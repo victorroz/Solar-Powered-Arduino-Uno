@@ -48,3 +48,16 @@ As portrayed in the schematic view, the positive output of the solar panel is co
 In order to retain the charge of the battery as much as possible, a timer circuit was implemented. The main components of this circuit are a 555 timer IC and a 5V relay. Connection of individual components has been detailed in the following figure. The common terminal of the relay must be given the 5V output from the voltage booster to be activated. Since the voltage rating the relay is 5V, any supply lower than that will not switch it on.
 ![555 Timer Circuit Schema](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/41abd65237ab0b2d51489c88349c46d8fc291eee/images/555_Timer_Circuit_Schema.jpg)
 ![555 Timer Circuit Breadboard](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/41abd65237ab0b2d51489c88349c46d8fc291eee/images/555_Timer_Circuit_Breadboard.jpg)
+
+## Future Ideas
+- Make a PCB
+- Use an OR gate IC instead of relays
+
+## How to Contribute
+This is a free and open-source initiative. Anyone can make a contribution based on future ideas. If there are any suggestions that are not included in future ideas, they can be made. Also, if the future ideas presented are not applicable to this design and are not beneficial to the use case, one can make a proposal. If you want to help with development, you can look at the manifest of files listed below to get an understanding of what each file is about.
+
+### Manifest
+- /images - This is whre the image files for this README are
+- /rawFiles - This contains all the raw or original source files from fritzing and draw.io
+- /CITATION.cff - If anyone wants to use this repository as a reference then they can cite repository using the details provided this file 
+- /README.md - This is the file you are currently reading!
