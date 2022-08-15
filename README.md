@@ -12,11 +12,11 @@
     - [Objective](#objective)
     - [Issue](#issue)
 
-## :package: About this project
+## About this project
 ![Solar Powered Arduino Uno Banner](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/main/images/Banner.png)
 *One of the challenging task when designing a remote data logger is the power source. For instance, having an IoT (Internet of Things) device in a forest to detect forest fires where the mains power supply is not present. In such circumstances, the need for a standalone power supply, which has the means to generate electricity from the natural resources available to human, is ideal. A solar panel is used to charge up a battery which is then channeled through a voltage regulator to power up the Arduino and any other external components connected to it. A secondary battery has also been introduced to act as a backup power supply in case the primary one fails. This design project lays out a run-through of the modifications made to the already existing solar charged battery powered Arduino Uno.*
 
-## :coffee: Overview
+## Overview
 ### Introduction
 The Arduino Uno is an open-source microcontroller board based on the ATmega328P microchip microcontroller. The board is developed by Arduino.cc which comes with an arrangement of digital and analog input/output (I/O) pins. The I/O pins can be used to provide power and control external components, and can also be interfaced with other expansion shields. As a result, sensors, such as temperature and humidity, could be wired with the Arduino to make a standalone system. One such example of standalone systems is referred to as data loggers. To explain it further, a Wikipedia article [5] states that data loggers are electronic devices that collect information over time by using sensors. This led to the main objective of this project which is to make use of nature energy, given its abundance and pure in form, to power up devices in remote locations. The search for renewable energy sources is a continuous process and the discovery of solar energy gave rise to numerous possibilities. One of them is an alternative source of power where a power outlet is not available. This project makes use of a 6V solar cell that charges up a 3.7V lithium battery. A voltage booster is then used to step-up the voltage to 5V, which can then be used to power the Arduino board and other components connected to it. In order to reserve battery energy, a timer circuit was also implemented to momentarily cut-off the power from the Arduino. Additionally, a secondary battery has been introduced to assist the primary battery in case it malfunctions and stops supplying power to the microcontroller.
 
