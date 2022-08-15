@@ -11,6 +11,8 @@
     - [Why?](#why)
     - [Objective](#objective)
     - [Issue](#issue)
+- [:art: The design](#the-design)
+    - [Details](#details)
 
 ## About this project
 ![Solar Powered Arduino Uno Banner](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/main/images/Banner.png)
@@ -28,3 +30,11 @@ The primary objective of this project is to design a system that will be able to
 
 ### Issue
 The major issue with this reference project was finding the exact components required to make the solar charger and timer circuit. As the author published this in the year 2016, some of the components were discontinued or out of stock. As a result, quite a bit of additional time was spent finding out the right components. In addition to the already incredible circuit made by Igor, a few modifications were done to it. Since the architecture was only using one lithium battery, a failure in the power source would have left the Arduino in an offline state. To overcome this issue, a secondary battery was introduced to serve as an emergency reserve.
+
+## The design
+### Details
+The main driving mechanism for this project is the solar panel, as it will be used to power up the Arduino. As mentioned previously, there will be two parts to this system design. The first part consists of two of the charging circuits (one for primary and the other for secondary battery) and the second part consists of the timer circuit. Fritzing, an open- source CAD software, has been used to implement the circuit before soldering. 
+### Assembling the solar powered battery charger
+As portrayed in the schematic view, the positive output of the solar panel is connected to the 1N4004 diode which is then connected to the positive terminal of the battery charger. The 3.7V 18650 lithium battery is connected in a junction between the battery charger and the voltage booster. The battery gets charged and then stepped up to a 5V output. This 5V output is the required voltage to power the Arduino. It is to be noted that, the battery and voltage booster used in the simulation software does not match with the one that has been used in this project. At this point, the Arduino can already be turned on but the battery will be drained quickly.
+![Solar Powered Arduino Uno Banner](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/41abd65237ab0b2d51489c88349c46d8fc291eee/images/Solar_Battery_Charger_Schema.jpg)
+![Solar Powered Arduino Uno Banner](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/41abd65237ab0b2d51489c88349c46d8fc291eee/images/Solar_Battery_Charger_Breadboard.jpg)
