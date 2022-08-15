@@ -14,7 +14,9 @@
 - [:art: The design](#the-design)
     - [Details](#details)
     - [Assembling the solar powered battery charger](#assembling-the-solar-powered-battery-charger)
-
+- [:clock2: Future ideas](#future-ideas)
+- [:hand: How to contribute](#how-to-contribute)
+    - [Manifest](#manifest)
 ## About this project
 ![Solar Powered Arduino Uno Banner](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/main/images/Banner.png)
 *One of the challenging task when designing a remote data logger is the power source. For instance, having an IoT (Internet of Things) device in a forest to detect forest fires where the mains power supply is not present. In such circumstances, the need for a standalone power supply, which has the means to generate electricity from the natural resources available to human, is ideal. A solar panel is used to charge up a battery which is then channeled through a voltage regulator to power up the Arduino and any other external components connected to it. A secondary battery has also been introduced to act as a backup power supply in case the primary one fails. This design project lays out a run-through of the modifications made to the already existing solar charged battery powered Arduino Uno.*
@@ -49,11 +51,11 @@ In order to retain the charge of the battery as much as possible, a timer circui
 ![555 Timer Circuit Schema](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/41abd65237ab0b2d51489c88349c46d8fc291eee/images/555_Timer_Circuit_Schema.jpg)
 ![555 Timer Circuit Breadboard](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/41abd65237ab0b2d51489c88349c46d8fc291eee/images/555_Timer_Circuit_Breadboard.jpg)
 
-## Future Ideas
+## Future ideas
 - Make a PCB
 - Use an OR gate IC instead of relays
 
-## How to Contribute
+## How to contribute
 This is a free and open-source initiative. Anyone can make a contribution based on future ideas. If there are any suggestions that are not included in future ideas, they can be made. Also, if the future ideas presented are not applicable to this design and are not beneficial to the use case, one can make a proposal. If you want to help with development, you can look at the manifest of files listed below to get an understanding of what each file is about.
 
 ### Manifest
