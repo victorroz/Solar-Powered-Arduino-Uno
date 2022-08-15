@@ -18,6 +18,7 @@
 - [:hand: How to contribute](#how-to-contribute)
     - [Manifest](#manifest)
 - [:anchor: Materials](#materials)
+- [:books: References](#references)
 ## About this project
 ![Solar Powered Arduino Uno Banner](https://github.com/victorroz/Solar-Powered-Arduino-Uno/blob/main/images/Banner.png)
 *One of the challenging task when designing a remote data logger is the power source. For instance, having an IoT (Internet of Things) device in a forest to detect forest fires where the mains power supply is not present. In such circumstances, the need for a standalone power supply, which has the means to generate electricity from the natural resources available to human, is ideal. A solar panel is used to charge up a battery which is then channeled through a voltage regulator to power up the Arduino and any other external components connected to it. A secondary battery has also been introduced to act as a backup power supply in case the primary one fails. This design project lays out a run-through of the modifications made to the already existing solar charged battery powered Arduino Uno.*
@@ -85,5 +86,13 @@ The materials required for this project are as follows:
     <li>100μF electrolytic capacitor [<a href="https://www.amazon.ca/gp/product/B089YDN6VJ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B089YDN6VJ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
     <li>10nF ceramic capacitor [<a href="https://www.amazon.ca/gp/product/B072J58YMT/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B072J58YMT/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
     <li>5V SPDT relay [<a href="https://www.amazon.ca/gp/product/B0874MF8DR/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1">https://www.amazon.ca/gp/product/B0874MF8DR/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1</a>]</li>
-    <li> [<a href=""></a>]</li>
+</ol>
+
+## References
+<ol>
+    <li><a href="https://create.arduino.cc/projecthub/igorF2/solar-charged-battery-powered-arduino-uno-645d89?ref=platform&refid=424trendingpartintermediate&offset=5">Solar Charged Battery Powered Arduino Uno</a></li>
+    <li><a href="https://create.arduino.cc/projecthub/eani/diy-how-to-use-the-arduino-uno-to-send-an-email-or-sms-28ac4d">DIY - How to Use the Arduino Uno to Send an Email or SMS</a></li>
+    <li><a href="https://www.cbc.ca/news/canada/british-columbia/bc-wildfires-2021-timeline-1.6197751">A look back at the 2021 B.C. wildfire season</a></li>
+    <li><a href="https://www.saskatchewan.ca/government/news-and-media/2022/august/11/spsa-reminds-residents-and-visitors-to-stay-cautious-to-prevent-wildfires">SPSA Reminds Residents and Visitors to Stay Cautious to Prevent Wildfires</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Data_logger">Data logger</a></li>
 </ol>
